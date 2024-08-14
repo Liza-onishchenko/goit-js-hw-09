@@ -1,0 +1,103 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    list-style-type: none;
+    max-width: 1440px;
+    max-height: 696px;
+    justify-content: center;
+}
+
+img{
+    display: block;
+    width: 360px;
+    height: 200px;
+}    
+
+.sl-wrapper{
+    background: rgba(46, 47, 66, 0.8);
+}
+
+.sl-wrapper .sl-close{
+    color: #FFF !important;
+}
+
+
+.sl-wrapper .sl-counter{
+    color: #FFF !important;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+
+}
+
+.sl-wrapper .sl-navigation button.sl-prev{
+    color: #FFF !important; 
+}
+
+.sl-wrapper .sl-navigation button.sl-next {
+    color: #FFF !important; 
+}
+
+/*----Forma---*/
+ 
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-left: 24px;
+}
+
+.item-email{
+    display: flex;
+    flex-direction: column;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-top: 24px;
+    margin-bottom: 8px;
+    
+}
+
+input{
+    height: 40px;
+}
+
+.item-message{
+    display: flex;
+    flex-direction: column;
+    color: #2e2f42;
+    
+}
+
+.textarea{
+    height: 80px;
+    margin-bottom: 8px;
+} 
+
+button{
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background: #4e75ff;
+    margin-top: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: 1pt solid #4e75ff;
+}
